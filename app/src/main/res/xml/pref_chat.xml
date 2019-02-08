@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:id="@+id/chat_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="std26.os3.su"
+        android:key="chat_address"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_chat_address" />
+    <EditTextPreference
+        android:id="@+id/chat_port"
+        android:defaultValue="8640"
+        android:key="chat_port"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_chat_port" />
+    <EditTextPreference
+        android:key="ttp_number"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_ttp_number" />
+</PreferenceScreen>

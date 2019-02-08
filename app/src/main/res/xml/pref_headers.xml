@@ -1,0 +1,26 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+
+    <header
+        android:fragment="su.os3.lbkx.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_general" />
+
+    <header
+        android:fragment="su.os3.lbkx.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_notifications" />
+         These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="su.os3.lbkx.SettingsActivity$TTPPreferenceFragment"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="@string/pref_header_charlie" />
+
+    <header
+        android:fragment="su.os3.lbkx.SettingsActivity$ChatPreferenceFragment"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="@string/pref_header_chat" />
+
+</preference-headers>

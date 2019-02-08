@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+    <!-- This preference simply launches an intent when selected. Use this UI sparingly, per
+         design guidelines. -->
+    <EditTextPreference
+        android:id="@+id/ttp_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="std26.os3.su"
+        android:key="ttp_address"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_charlie_address" />
+    <EditTextPreference
+        android:id="@+id/ttp_port"
+        android:defaultValue="8642"
+        android:key="ttp_port"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_charlie_port" />
+    <EditTextPreference
+        android:key="ttp_number"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_ttp_number" />
+    <EditTextPreference
+        android:key="ttp_password"
+        android:password="true"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_ttp_password" />
+    <Preference android:title="@string/signup">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="su.os3.lbkx"
+            android:targetClass="su.os3.lbkx.SignUpActivity" />
+
+        />
+    </Preference>
+
+</PreferenceScreen>
